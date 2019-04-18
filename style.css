@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700,900');
+
+
+body{
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+}
+
+.main{
+	padding: 50px;
+	text-align: center;
+}
+
+br{
+	width: 100%;
+	content: ''
+}
+
+.score-container{
+	margin-top: 50px;
+	font-size: 30px;
+}
+
+#score{
+	font-weight: 700;
+}
