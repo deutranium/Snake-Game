@@ -1,14 +1,15 @@
 //constants
 const canvasBorderBg = 'black';
 const canvasBg = 'white';
-const snakeBorderBg = 'darkGreen';
-const snakeBg = 'lightGreen';
+const snakeBorderBg = 'black';
+const snakeBg = 'black';
 const foodBorderBg = 'darkred';
 const foodBg = 'red';
 const lKey = 37;
 const rKey = 39;
 const uKey = 38;
 const dKey = 40;
+const speed = 10;
 
 let changingDirection = true;
 var gameCanvas = document.getElementById('gameCanvas');
@@ -40,7 +41,7 @@ function main(){
 		drawSnake();
 
 		main();
-	}, 100)
+	}, speed)
 }
 
 
@@ -119,6 +120,7 @@ function createFood(){					//Snakey is hungry. Very hungry.
 		const foodIsOnSnake = part.x == foodX && part.y == foodY;
 		if(foodIsOnSnake) createFood();
 	})
+	//speed = speed -5;
 }
 
 function drawFood(){					//Snakey's hunger knows no bounds.

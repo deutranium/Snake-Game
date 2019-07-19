@@ -15,3 +15,7 @@
 - [ ] Highscores can be seen
 - [ ] Optimise for touchscreens
 - [ ] Make a better design
+- [ ] Multiple levels
+- [ ] Can change speed with input
+- [ ] Food for >10 points after each 100(or something else) points
+- [ ] Have an option to hit from the right wall, emerge from the left wall (plus vice versa), and hit the top wall to emerge from the bottom wall(plus vice versa)
