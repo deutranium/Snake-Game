@@ -1,5 +1,7 @@
 # UI is horrible at the moment
 
+View it [live](https://deutranium.github.io/Snake-Game/)
+
 ### To do
 
 - [x] There is a snake
